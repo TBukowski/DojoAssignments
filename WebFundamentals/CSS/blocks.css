@@ -1,8 +1,8 @@
 /*CSS reset settings here*/
-/**{
+*{
  margin: 0px;
  padding: 0px;
-}*/
+}
 #wrapper{
 height: 600px;
  width: 960px;
