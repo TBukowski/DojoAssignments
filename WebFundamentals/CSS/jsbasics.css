@@ -1,0 +1,72 @@
+*{/* WHAT IS THIS FOR?*/
+ margin: 0px;
+ /*padding: 0px;*/
+}
+body {
+    background-color: rgb(18, 53, 91);
+}
+#wrapper{
+height: 600px;
+ width: 970px;
+
+}
+.wrap{
+    margin: 15px;
+}
+#header{
+height: 78px;
+width: 960px;
+border-radius: 15px;
+font-size: 33px;
+font-weight: bold;   
+ vertical-align: middle;
+ display: table-cell;
+ border-left: 20px solid transparent;
+ color: rgb(191, 215, 234);
+ background-color: rgb(215, 38, 56);
+}
+.parw{
+    margin: 15px;
+}
+#side_bar{
+width: 215px;
+height: 250px;  
+margin: 10px; 
+border-radius: 15px; 
+background-color: rgb(8, 126, 139);
+vertical-align: top;
+display: inline-block;
+}
+a{
+    color: rgb(82, 219, 214);
+}
+#main_list li{
+margin-top: 10px;}
+
+#main_content{   
+ height: 500px;
+ width: 700px;
+ margin: 5px;
+ padding: 10px;
+ border-radius: 15px;
+ color: rgb(191, 215, 234);
+ background-color: rgb(12, 24, 33);
+ display: inline-block;
+}
+ 
+#footer{
+ height: 70px;
+ width: 960px;
+ margin-left: 10px;
+ border-radius: 25px;
+ background-color: rgb(92, 102, 114);
+ color: rgb(191, 211, 215);
+}
+.foot{
+    margin: 15px;
+    padding-top: 25px;
+    font-size: larger;
+}
+ul{
+    padding-left: 20px;
+}
