@@ -1,0 +1,85 @@
+* {
+    border: 1px solid red;
+}
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+}
+button {
+    margin-left: 1em;
+}
+p {
+    display: inline-block;
+}
+.func1 .red {
+    color: red;
+    outline: black solid 1px;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(orange, yellow, green); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(orange, yellow, green); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(orange, yellow, green); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(orange, yellow, green); /* Standard syntax */
+    width: 80%;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+}
+.func2 {
+    text-align: center;
+}
+.block1 {
+    display: inline-block;
+    margin: 0% 5%;
+}
+.block2 {
+    display: inline-block;
+    margin: 0% 5%;
+}
+.block3 {
+    display: inline-block;
+    margin: 0% 5%;
+}
+.func2 h1 {
+    display: inline-block;
+}
+.func2 img {
+    height: 5em;
+}
+.func2 p {
+    display: block;
+}
+.func3 img {
+    height: 10em; 
+    margin-left: 15%;
+}
+.func3 button {
+    display: inline-block; 
+    margin-left: 10%;
+    height: 15em;
+    width: 7em;
+    vertical-align: top;
+    
+}
+.func3 p {
+    color: #ab1921;
+    font-size: xx-large;
+}
+.andThen {
+    color: #ce8f43;
+    height: 5em;
+    width: 98%;
+    font-size: xx-large;
+    overflow: scroll;
+}
+.func4 p {
+    height: 20em;
+    width: 20%;
+    display: inline-block;
+    margin-left: 3em;
+    vertical-align: top;
+}
