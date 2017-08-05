@@ -1,0 +1,6 @@
+pip install and uninstall - use to install or uninstall a package.
+*when trying to install a package that is already installed, it gives a messages telling you so.
+pip list - list installed packages.
+pip freeze - "Output installed packages in requirements format."-pip doc.
+pip show - displays information about a package.
+pip search - searches for packages.
