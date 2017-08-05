@@ -2,11 +2,11 @@ def typelist(yourList):
     words = ''
     total = 0
 
-    for value in yourList:
-        if isinstance(value, int) or isinstance(value, float):
-            total += value
-        elif isinstance(value, str):
-            words += (' ' + value)
+    for val in yourList:
+        if isinstance(val, int) or isinstance(val, float):
+            total += val
+        elif isinstance(val, str):
+            words += (' ' + val)
 
     if total and words:
         print 'this list has mixed types'
