@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>My First Template</title>
+    </head>
+    <body>
+        <h3>My first Flask template with embedded Python</h3>
+        <!--this will output the value of our phrase variable-->
+        <p>Times: {{times}}</p>
+        <!--here is an example of embedding a for-loop in our code -->
+        {% for x in range(0, times): %}
+        <p>{{ phrase }}</p>
+        {% endfor %}
+    </body>
+</html>
