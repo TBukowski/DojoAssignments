@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Results</title>
+    </head>
+    <body>
+        <h1>Submitted Info</h1>
+        <p>Name: {{ request.form['name'] }}  </p> 
+        <p>Dojo Location: {{ request.form['dojo_location'] }}  </p>
+        <p>Favorite Language: {{ request.form['fav_language'] }}  </p>
+        <p>Comments: {{ request.form['comment'] }}  </p>
+    </body>
+</html>

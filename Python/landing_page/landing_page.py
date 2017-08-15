@@ -4,7 +4,6 @@ from flask import Flask, render_template, request, redirect
 app = Flask(__name__)
 
 @app.route('/')
-
 def landing_page():
     return render_template('index.html')
 
@@ -22,7 +21,7 @@ def dojos():
 @app.route('/dojos/new', methods=['POST'])
 def dojos_new():
     # projectpath = request.form['fname']
-    # return render_template('submitted.html') #DO NOT USE RENDER TEMPLATE IN POST REQUEST
+    return redirect('/submitted') #DO NOT USE RENDER TEMPLATE IN POST REQUEST
 
 @app.route('/submitted', methods=['GET'])
 def submit():
