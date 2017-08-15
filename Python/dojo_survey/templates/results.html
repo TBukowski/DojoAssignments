@@ -9,5 +9,10 @@
         <p>Dojo Location: {{ request.form['dojo_location'] }}  </p>
         <p>Favorite Language: {{ request.form['fav_language'] }}  </p>
         <p>Comments: {{ request.form['comment'] }}  </p>
+        <br><br>
+        <form action="index.html" method="GET">
+            <button formaction={{url_for('index')}}>Dojo Survey</button>
+        </form>
     </body>
 </html>
+<!-- <a href={{url_for("index")}}><input type="button" name="nav_button" value="Home Page"></a> -->
