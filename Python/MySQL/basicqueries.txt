@@ -1,0 +1,11 @@
+USE twitter
+
+SELECT * FROM users;
+
+
+
+SELECT id, tweet FROM tweets;
+
+
+
+SELECT id, follower_id FROM follows WHERE id=1;
