@@ -1,0 +1,15 @@
+  File "C:\Users\Ty\Desktop\DojoAssignments\Python\flask_mysql\mysqlconnection.py", line 9, in __init__
+    'database': mydb, # we got db as an argument
+NameError: global name 'mydb' is not defined
+
+Fix: change 'mydb' to 'db', 'db' is the argument
+
+sqlalchemy.exc.OperationalError: (_mysql_exceptions.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' (10061)
+")
+
+Fix: Use the correct port, 3306.
+
+sqlalchemy.exc.OperationalError: (_mysql_exceptions.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' (10061)
+")
+
+Fix: use the correct password, in this case 'root'.
