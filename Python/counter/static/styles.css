@@ -1,0 +1,9 @@
+.button {
+    color: white;
+    background: blue;
+    width: 3%;
+    padding: 10px 20px;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
