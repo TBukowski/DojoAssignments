@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">    
+    <title>Ninja Gold</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Ninja Gold</h1>
+
+        
+            <h2 class="bank">Your gold: <b>{{ session['ninja_gold'] }}</b></h2>
+            <form action="/reset" class="bank">
+                <input type="submit" value="Reset">
+            </form>
+
+        <div class="job farm">
+            <h3>Farm</h3>
+            <p>(earns 10-20 gold)</p>
+            <form action="/process_money" method="POST">
+                <input type="hidden" name="building" value="farm">
+                <input type="submit" value="Find Gold!">
+            </form>
+        </div>
+
+        <div class="job cave">
+            <h3>Cave</h3>
+            <p>(earns 5-10 gold)</p>
+            <form action="/process_money" method="POST">
+                <input type="hidden" name="building" value="cave">
+                <input type="submit" value="Find Gold!">
+            </form>            
+        </div>
+
+        <div class="job house">
+            <h3>House</h3>
+            <p>(earns 2-5 gold)</p>
+            <form action="/process_money" method="POST">
+                <input type="hidden" name="building" value="house">
+                <input type="submit" value="Find Gold!">
+            </form>
+        </div>
+
+        <div class="job casino">
+            <h3>Casino</h3>
+            <p>(earns/takes 0-50 gold)</p>
+            <form action="/process_money" method="POST">
+                <input type="hidden" name="building" value="casino">
+                <input type="submit" value="Find Gold!">
+            </form>
+        </div>
+
+        <div class="activities">
+        <h4>Activites:</h4>
+            <textarea name="job_log" id="job_log" cols="80" rows="10">
+                {% for job in session['jobs'] %}
+                    {{ job }}
+                {% endfor %}
+            </textarea>
+        </div>
+    </div>
+</body>
+</html>

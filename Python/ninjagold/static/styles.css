@@ -1,0 +1,32 @@
+* {
+    text-align: center;
+}
+
+.wrapper {
+    border: 3px groove gold;
+    background-color: #FFD39B;
+    width: fit-content;
+}
+
+.bank {
+    text-align: left;
+}
+
+.bank b {
+    border: 1px solid #11B030;
+}
+
+div.job {
+    display: inline-block;
+    text-align: center;
+    background-color: gainsboro;
+    border: 2px inset beige;
+    height: 10em;
+    width: 10em;
+    margin: 2em;
+}
+
+h4 {
+    position: relative;
+    right: 17em;
+}
